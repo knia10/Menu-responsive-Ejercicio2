@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+body,main{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contain-full{
+    width: 100%;
+    height: 10vh;
+}
+
+.contain-full .box{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCCE62;
+}
+
+.contain-full .box ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-full .box ul li{
+    padding: 5px 15px;
+    font-family: 'Original Surfer', cursive;
+    font-size: 1.4em;
+    list-style: none;
+}
+
+.contain-full .box ul li:hover{
+    background-color: #F2B75E;
+}
+
+.contain-full .box ul li a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #020202;
+}
+
+.contain-mobile{
+    display: none;
+}
